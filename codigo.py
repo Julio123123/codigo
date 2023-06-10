@@ -57,7 +57,7 @@ class CaronaUnimar:
             elif opcao == '3':
                 print("Para acessar esta aba voce precisa da senha do administrador")
                 senha_adm = int(input("Qual a senha do administrador? "))
-                if senha_adm == 123456789:
+                if senha_adm == 1212:
                     self.listar()
                 else:
                   print("!!!acesso negado!!!")
